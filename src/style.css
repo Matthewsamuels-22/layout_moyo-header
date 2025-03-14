@@ -109,7 +109,7 @@
     width: 40px;
   }
 
-  .nav__links[data-qa='hover']:hover {
-    transform: translateZ(0);
+  .nav__links[data-qa^='hover']:hover {
+    transform: none;
   }
 }
